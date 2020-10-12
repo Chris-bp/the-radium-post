@@ -1,0 +1,98 @@
+body {
+    margin-left: 50px;
+}
+
+#navbar{
+    background-color: white;
+    color: black;
+    padding: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    top:0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:black;
+    text-decoration: none;
+    font-family: WiredMono,helvetica,sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+}
+
+#sign-in{
+    float: right;
+    background-color: cornflowerblue;
+    height: 20px;
+    width: 60px;
+    position: relative;
+}
+
+.button{
+ block-size: auto;
+ object-position: right;
+}
+
+.title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#content-header{
+    box-sizing: border-box;
+    letter-spacing: 1em;
+    font-family: helvetica, arial, sans-serif;
+}
+
+.a [href="https://www.wired.com/contributor/louryn-strampe"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: semi-expanded;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+}
+
+.caption {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: Tinos;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-right: 350px;
+    margin-left: 350px;
+    padding: auto;
+    line-height: 1.5em;
+}
+
+.lead-in-text-callout {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
