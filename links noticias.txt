@@ -4,3 +4,17 @@ https://www.wired.com/story/sony-playstation-5-reveal/
 
 AGREGAR BOTON IDA Y VUELTA DE PÁGINA
 CREAR un README.txt
+
+Llamada: nav bar dividida en 3 partes
+div contariner fuera.
+imagen
+div ul il
+div ul il
+
+agregar un class para 2da barra.
+
+https://www.wired.com/story/sony-playstation-5-event-games
+
+class: hover{
+colo: blue;
+}

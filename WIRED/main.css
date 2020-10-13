@@ -2,7 +2,16 @@ body {
     margin-left: 50px;
 }
 
-#navbar{
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{
+ color: rgb(45, 131, 230);
+}
+nav{
     background-color: white;
     color: black;
     padding: auto;
@@ -12,18 +21,16 @@ body {
     top:0;
     width: 100%;
     overflow: hidden;
+    border-bottom: solid grey 1px;
 }
-
-#navbar ul{
+nav ul{
     padding:0;
     list-style: none;
 }
-
-#navbar li{
+nav li{
     display: inline;
 }
-
-#navbar a{
+nav a{
     color:black;
     text-decoration: none;
     font-family: WiredMono,helvetica,sans-serif;
@@ -31,57 +38,91 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
+nav ul {
+    display: inline;
 }
-
-#sign-in{
-    float: right;
-    background-color: cornflowerblue;
-    height: 20px;
-    width: 60px;
-    position: relative;
+.hover-blue:hover {
+    color: blue;
 }
-
-.button{
- block-size: auto;
- object-position: right;
+.secondary-links {
+    margin-left: 150px;
 }
-
+.suscribe {
+    background-color: rgb(75, 75, 199);
+    color: white;
+    border-radius: 3px;
+    padding: 15px;
+}
 .title {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 45px;
     font-weight: bolder;
 }
-
 #content-header{
     box-sizing: border-box;
     letter-spacing: 1em;
     font-family: helvetica, arial, sans-serif;
 }
-
 .a [href="https://www.wired.com/contributor/louryn-strampe"] {
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: semi-expanded;
     background-color: black;
     color: white;
     text-decoration: none;
+}
 
+.banner {
+    display: block;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+#link{ 
+    display: block;
+}
+
+.button{
+    display:inline;
+    font-weight: bolder;
+    background-color: black;
+    height: 15px;
+    width: 120px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px
+}
+
+.gear{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+address{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    margin-left: 20px;
 }
 
 .caption {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 10px;
 }
-
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-
 p {
-    font-family: Tinos;
-    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     margin-bottom: 15px;
     text-align: left;
     margin-right: 350px;
@@ -89,10 +130,66 @@ p {
     padding: auto;
     line-height: 1.5em;
 }
-
 .lead-in-text-callout {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.video{
+    display:block;
+    margin: auto;
+}
+
+.link-3{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-top: grey solid 1px;
+    border-bottom: grey solid 1px;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+}
+
+.quote{
+    display: block;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    color: grey;
+    border-top: grey solid 1px;
+    padding: 15px
+
+}
+
+h3 {
+    margin-left: 400px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    display: block;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: grey solid 1px;
+    padding-bottom: 20px;
+
+}
+
+.tweet{
+    display:block;
+    margin: auto;
+    
 }
