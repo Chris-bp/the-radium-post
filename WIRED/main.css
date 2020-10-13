@@ -191,5 +191,18 @@ h3 {
 .tweet{
     display:block;
     margin: auto;
-    
+
 }
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+

@@ -49,3 +49,15 @@ h1{
 .external{
     display: inline;
 }
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    float: right;
+}
